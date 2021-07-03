@@ -1,0 +1,12 @@
+@import './variables.scss';
+
+.footer {
+    background: #CE7CE2;
+    width: 100vw;
+    height: 5rem;
+    padding: $space*3;
+    a {
+        margin-left: $space*3;
+        color: white;
+    }
+}
