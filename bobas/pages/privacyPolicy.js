@@ -1,5 +1,11 @@
+import Header from '../components/Header';
+
 function PrivacyPolicy() {
-    return <div>Privacy Policy</div>
+    return (
+        <div>
+            <Header/>
+        </div>
+    )
 }
 
 export default PrivacyPolicy;
