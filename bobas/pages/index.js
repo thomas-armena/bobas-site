@@ -5,6 +5,7 @@ import AppStoreButton from '../components/AppStoreButton';
 import Image from 'next/image';
 import ipadImg from '../public/ipad.svg';
 import iphoneImg from '../public/iphone.svg';
+import YoutubeEmbed from '../components/YoutubeEmbed';
 
 export default function Home() {
   return (
@@ -58,8 +59,8 @@ function FeaturesSection() {
           <li>Fluid swipe controls to control shooting, gameplay designed for touch!</li>
           <li>Limitless combinations of player evolution, resulting in limitless replayability</li>
           <li>Risk and reward level up system where you must choose how Bobas evolve alongside you</li>
-
         </ul>
+        <YoutubeEmbed/>
       </div>
     </div>
   )
