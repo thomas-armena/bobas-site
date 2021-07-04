@@ -2,12 +2,12 @@
 
 .home {
     width: 100vw;
-    position: absolute;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     .content {
-        width: $content-width;
+        max-width: $content-width;
         margin-top: $header-height;
         padding: $space;
         min-height: 100vh;
@@ -54,6 +54,7 @@
         margin-top: $space*4;
 
         .ipad {
+            width: $content-width/2.5;
         }
         .iphone {
             position: relative;

@@ -12,7 +12,6 @@ function AppStoreButton() {
             <Image src={downloadBadge}></Image>
         </Link>
         </div>
-
     )
 }
 
