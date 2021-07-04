@@ -8,7 +8,7 @@ function PrivacyPolicy() {
             <Header/>
             <div className={styles.privacyPolicy}>
                 <div className={styles.content}>
-                    <h2 className={styles.title}>Privacy Policy</h2>
+                    <h2 className='subtitle'>Privacy Policy</h2>
                     <p className={styles.paragraph}>Bobas does not use, save or access any personal information from your device.</p>
                 </div>
             </div>
