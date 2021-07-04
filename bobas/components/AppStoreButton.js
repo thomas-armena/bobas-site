@@ -1,6 +1,6 @@
 import styles from '../styles/AppStoreButton.module.scss';
 import Image from 'next/image';
-import Link from 'next/Link';
+import Link from 'next/link';
 import downloadBadge from '../public/downloadbadge.svg';
 
 const APP_URL = 'https://apps.apple.com/us/app/bobas/id1554763602'
